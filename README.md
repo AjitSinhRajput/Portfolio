@@ -1,27 +1,52 @@
-Appendix A
-Personal Portfolio Website
+Ajit Sinh Rajput | Portfolio
+Welcome to my personal portfolio showcasing my skills, services, and projects. This website demonstrates my expertise in Full-Stack Development, Microsoft Power Platform, and modern web technologies.
+Live Demo
+[Portfolio Website](https://ajitsinhrajput.github.io/Portfolio/)
+Technologies Used
 
-1. Name of Student:  Ajit Sinh Rajput
+- Frontend: HTML5, CSS3, JavaScript, ReactJS, Next.js, TailwindCSS (if used)
+- Backend / API: FastAPI, Flask, NodeJS
+- Microsoft Technologies: Power Platform, SharePoint, Dynamics 365
+- Other Tools: SQL, Git, GitHub, Boxicons
+  Features
+- Home Section: Personal introduction with animated typing effect
+- About Section: Background, education, and skills summary
+- Services / Skills Section: Interactive stacked cards revealing each skill on scroll
+- Portfolio Section: Showcase of real projects with technologies used
+- Contact Section: Functional contact form with validation
+- Responsive Design: Works on desktop, tablet, and mobile devices
+- Smooth Scrolling: Sticky navigation with active link highlights
+  Screenshots
+  Home: images/home_screenshot.png
+  Services / Skills: images/services_screenshot.png
+  Portfolio: images/portfolio_screenshot.png
+  Folder Structure
+  Portfolio/
+  │
+  ├─ images/ # Project images and icons
+  ├─ index.html # Main HTML file
+  ├─ main.css # Styles
+  ├─ script.js # JavaScript functionality
+  └─ README.md # This file
+  How to Run Locally
 
-2. Group Work: This project was completed individually.
+1. Clone the repository:
+   git clone https://github.com/AjitSinhRajput/Portfolio.git
 
-3. Design Principles Used
-•	Proximity: Related elements such as project details, contact information, and skills are grouped closely to help users quickly scan relevant sections. 
-•	Contrast: Clear contrast between text and background (e.g., white text on dark backgrounds) enhances readability. Accent colors (such as blue or green) are used for buttons and section headers to guide user attention.  
-•	Typography: Consistent font styles and sizing create a visual hierarchy. Headings use larger, bold fonts to distinguish them from body text.
-•	Alignment: All content is aligned using a consistent grid structure, improving balance and flow.
-•	Repetition: The same layout and styling are repeated across project cards, skills sections, and headings to maintain visual unity.
+2. Navigate into the folder:
+   cd Portfolio
 
-4. Accessibility Compliance Strategies
-•	Semantic HTML tags (e.g., `<header>`, `<section>`, `<nav>`, `<main>`, `<footer>`) are used for better screen reader compatibility.  
-•	Descriptive `alt` attributes are included for all images.  
-•	Sufficient color contrast is maintained throughout the site.  
-•	Font sizes and spacing are chosen for easy readability on both desktop and mobile.  
-•	Interactive elements such as links and buttons are keyboard navigable.
+3. Open index.html in your browser:
+   start index.html # Windows
+   open index.html # Mac
+   Contact Me
 
-5.Search Engine Optimization (SEO) Strategies
-•	Proper use of HTML5 semantic tags improves search engine understanding of page structure.  
-•	Meta tags such as `description` and `viewport` are included for improved indexing and mobile responsiveness.  
-•	Page titles and headings use clear, keyword-relevant text.  
-•	Descriptive anchor tags are used to improve content discoverability.
-![image](https://github.com/user-attachments/assets/40928987-9be4-472f-82ea-e00f17cec86d)
+- Email: asrrajput123ajit@gmail.com
+- LinkedIn: https://www.linkedin.com/in/ajit-sinh-rajput-7961b5233
+- GitHub: https://github.com/AjitSinhRajput
+  Notes
+- All images and icons used are for demonstration purposes.
+- Services section uses a scroll-based interactive stacked card layout.
+- Smooth scrolling, pinned services section, and typing animation implemented with JavaScript and ScrollReveal.js.
+  License
+  This project is licensed under the MIT License. See the LICENSE file for details.
