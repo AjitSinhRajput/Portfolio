@@ -453,6 +453,10 @@ span {
   .services {
     padding-bottom: 7rem;
   }
+  .home-img-hex {
+    width: 100vw;
+    margin-top: 10em;
+  }
   .portfolio {
     padding-bottom: 7rem;
   }
@@ -502,7 +506,10 @@ span {
   .home-content h1 {
     font-size: 5rem;
   }
-
+  .home-img-hex {
+    width: 100vw;
+    margin-top: 10em;
+  }
   .home-img img {
     width: 70vw;
     margin-top: 4rem;
@@ -540,6 +547,10 @@ span {
   html {
     font-size: 50%;
   }
+  .home-img-hex {
+    width: 100vw;
+    margin-top: 10em;
+  }
 
   .contact form .inputbox input {
     width: 100%;
@@ -549,6 +560,10 @@ span {
 @media (max-width: 365px) {
   .home-img img {
     width: 90vw;
+  }
+  .home-img-hex {
+    width: 100vw;
+    margin-top: 10em;
   }
 
   .about-img img {
