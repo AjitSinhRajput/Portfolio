@@ -159,12 +159,45 @@ span {
   box-shadow: none;
 }
 
-.about {
+/* .about {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
   background: var(--second-bg-color);
+} */
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  /* New background settings */
+  background: url("./images/ajit_latest_bg.jpeg") center/cover no-repeat;
+  position: relative;
+  color: #fff;
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(31, 36, 45, 0.7); /* dark overlay */
+  z-index: 1;
+}
+
+/* Make content above overlay */
+.about-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  text-align: left;
 }
 
 .about-img img {
@@ -255,15 +288,23 @@ span {
   gap: 3rem;
 }
 .ajit-portfolio-box {
-  padding: 1.5rem;
-  background-color: var(--second-bg-color);
-  border-radius: 10px;
-  box-shadow: 0 4px 6px #0000001a;
-  width: 320px;
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: var(--second-bg-color);
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: 0.2rem solid var(--bg-color);
+  transition: 0.5s ease;
   display: flex;
   flex-direction: column;
+}
+
+.ajit-portfolio-box:hover {
+  border-color: var(--main-color);
+  transform: scale(1.02);
+}
+.ajit-portfolio-box:hover .ajit-portfolio-layer {
+  transform: translateY(-0.5rem);
+  transition: 0.5s ease;
 }
 .ajit-portfolio-layer {
   padding: 1.5rem;
